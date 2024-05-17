@@ -48,6 +48,9 @@ class MainActivity : ComponentActivity() {
         Burger(paintId = R.drawable.whopper, burgerName = "와퍼", burgerPrice = 7100),
         Burger(paintId = R.drawable.garlicbulbogiwhopper, burgerName = "갈릭불고기와퍼", burgerPrice = 7700),
         Burger(paintId = R.drawable.cheesewhopper, burgerName = "치즈와퍼", burgerPrice = 7400),
+        Burger(paintId = R.drawable.bulgogiwhopper, burgerName = "불고기와퍼", burgerPrice = 7100),
+        Burger(paintId = R.drawable.hotchillilover, burgerName = "핫칠리러버", burgerPrice = 4800),
+        Burger(paintId = R.drawable.hotchillidouble, burgerName = "핫칠리러버 더블", burgerPrice = 5500),
     )
 
     @Composable
